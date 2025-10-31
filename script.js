@@ -1,7 +1,6 @@
 function mincost(arr)
 { 
-let min=arr.sort()
-	return min[0];
+return Math.min(...arr);
   
 }
 
